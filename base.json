@@ -1,0 +1,480 @@
+{
+	"squadName": "Super hero squad",
+	"homeTown": "Metro City",
+	"formed": 2016,
+	"status": "good",
+	"secretBase": "Super tower",
+	"active": true,
+	"members": [
+		{
+			"name": "Molecule Man",
+			"age": 29,
+			"secretIdentity": "Dan Jukes",
+			"powers": [
+				"Radiation resistance",
+				"Turning tiny",
+				"Radiation blast"
+			]
+		},
+		{
+			"name": "Madame Uppercut",
+			"age": 39,
+			"secretIdentity": "Jane Wilson",
+			"powers": [
+				"Million tonne punch",
+				"Damage resistance",
+				"Superhuman reflexes"
+			]
+		},
+		{
+			"name": "Eternal Flame",
+			"age": 1000000,
+			"secretIdentity": "Unknown",
+			"powers": [
+				"Immortality",
+				"Heat Immunity",
+				"Inferno",
+				"Teleportation",
+				"Interdimensional travel"
+			]
+		}
+	]
+}
+{
+	"squadName": "Avengers",
+	"homeTown": "New York",
+	"formed": 2012,
+	"status": "good",
+	"secretBase": "Stark Tower",
+	"active": true,
+	"members": [
+		{
+			"name": "Iron Man",
+			"age": 42,
+			"secretIdentity": "Tony Stark",
+			"powers": [
+				"Genius-level intellect",
+				"Powered armor suit",
+				"Flight",
+				"Energy repulsors"
+			]
+		},
+		{
+			"name": "Captain America",
+			"age": 33,
+			"secretIdentity": "Steve Rogers",
+			"powers": [
+				"Superhuman strength",
+				"Enhanced agility",
+				"Expert martial artist",
+				"Vibranium shield"
+			]
+		},
+		{
+			"name": "Thor",
+			"age": 1500,
+			"secretIdentity": "Thor Odinson",
+			"powers": [
+				"Asgardian physiology",
+				"Superhuman strength",
+				"Control over lightning",
+				"Mjolnir (enchanted hammer)"
+			]
+		}
+	]
+}
+{
+	"squadName": "X-Force",
+	"homeTown": "New York",
+	"formed": 2020,
+	"secretBase": "X-Mansion",
+	"active": true,
+	"status": "neutral",
+	"members": [
+		{
+			"name": "Deadpool",
+			"age": 42,
+			"secretIdentity": "Wade Wilson",
+			"powers": [
+				"Regenerative healing factor",
+				"Expert marksman",
+				"Master martial artist",
+				"Fourth wall awareness"
+			]
+		},
+		{
+			"name": "Domino",
+			"age": 32,
+			"secretIdentity": "Neena Thurman",
+			"powers": [
+				"Luck manipulation",
+				"Expert marksmanship",
+				"Skilled hand-to-hand combatant"
+			]
+		}
+	]
+}
+{
+	"squadName": "Guardians of the Galaxy",
+	"homeTown": "Xandar",
+	"formed": 2014,
+	"secretBase": "Knowhere",
+	"active": true,
+	"status": "good",
+	"members": [
+		{
+			"name": "Star-Lord",
+			"age": 40,
+			"secretIdentity": "Peter Quill",
+			"powers": [
+				"Strategic leadership",
+				"Expert pilot",
+				"Skilled hand-to-hand combatant",
+				"Element Gun"
+			]
+		},
+		{
+			"name": "Gamora",
+			"age": 35,
+			"secretIdentity": "Gamora",
+			"powers": [
+				"Enhanced strength",
+				"Master assassin",
+				"Expert martial artist",
+				"Skilled swordswoman"
+			]
+		}
+	]
+}
+{
+	"squadName": "Fantastic Four",
+	"homeTown": "New York",
+	"formed": 1961,
+	"status": "good",
+	"secretBase": "Baxter Building",
+	"active": true,
+	"members": [
+		{
+			"name": "Mr. Fantastic",
+			"age": 45,
+			"secretIdentity": "Reed Richards",
+			"powers": [
+				"Elasticity",
+				"Superhuman intellect"
+			]
+		},
+		{
+			"name": "Invisible Woman",
+			"age": 38,
+			"secretIdentity": "Sue Storm",
+			"powers": [
+				"Invisibility",
+				"Force field generation"
+			]
+		},
+		{
+			"name": "Human Torch",
+			"age": 30,
+			"secretIdentity": "Johnny Storm",
+			"powers": [
+				"Pyrokinesis",
+				"Flight"
+			]
+		},
+		{
+			"name": "The Thing",
+			"age": 40,
+			"secretIdentity": "Ben Grimm",
+			"powers": [
+				"Superhuman strength",
+				"Durable rock-like skin"
+			]
+		}
+	]
+}
+{
+	"squadName": "Teen Titans",
+	"homeTown": "Jump City",
+	"formed": 1980,
+	"status": "good",
+	"secretBase": "Titans Tower",
+	"active": true,
+	"members": [
+		{
+			"name": "Robin",
+			"age": 20,
+			"secretIdentity": "Dick Grayson",
+			"powers": [
+				"Master acrobat",
+				"Strategic mind"
+			]
+		},
+		{
+			"name": "Starfire",
+			"age": 22,
+			"secretIdentity": "Koriand'r",
+			"powers": [
+				"Flight",
+				"Energy projection",
+				"Superhuman strength"
+			]
+		},
+		{
+			"name": "Cyborg",
+			"age": 25,
+			"secretIdentity": "Victor Stone",
+			"powers": [
+				"Cybernetic enhancements",
+				"Super strength",
+				"Technopathy"
+			]
+		},
+		{
+			"name": "Beast Boy",
+			"age": 18,
+			"secretIdentity": "Garfield Logan",
+			"powers": [
+				"Shapeshifting",
+				"Animal mimicry"
+			]
+		},
+		{
+			"name": "Raven",
+			"age": 21,
+			"secretIdentity": "Raven",
+			"powers": [
+				"Telekinesis",
+				"Teleportation",
+				"Astral projection"
+			]
+		}
+	]
+}
+{
+	"squadName": "Sinister Six",
+	"homeTown": "New York",
+	"formed": 1984,
+	"status": "evil",
+	"secretBase": "Abandoned warehouse",
+	"active": true,
+	"members": [
+		{
+			"name": "Doctor Octopus",
+			"age": 58,
+			"secretIdentity": "Otto Octavius",
+			"powers": [
+				"Mechanical tentacles",
+				"Genius-level intellect",
+				"Expert engineer"
+			]
+		},
+		{
+			"name": "Green Goblin",
+			"age": 45,
+			"secretIdentity": "Norman Osborn",
+			"powers": [
+				"Enhanced strength",
+				"Flight",
+				"Goblin-themed weaponry"
+			]
+		},
+		{
+			"name": "Electro",
+			"age": 35,
+			"secretIdentity": "Max Dillon",
+			"powers": [
+				"Electrokinesis",
+				"Electricity manipulation",
+				"Superhuman agility"
+			]
+		}
+	]
+}
+{
+	"squadName": "Justice League",
+	"homeTown": "Metropolis",
+	"formed": 1960,
+	"status": "good",
+	"secretBase": "Hall of Justice",
+	"active": true,
+	"members": [
+		{
+			"name": "Superman",
+			"age": 35,
+			"secretIdentity": "Clark Kent",
+			"powers": [
+				"Flight",
+				"Super strength",
+				"Heat vision",
+				"Freeze breath",
+				"Invulnerability"
+			]
+		},
+		{
+			"name": "Batman",
+			"age": 42,
+			"secretIdentity": "Bruce Wayne",
+			"powers": [
+				"Genius-level intellect",
+				"Wealth",
+				"Expert detective",
+				"Master martial artist",
+				"Advanced technology"
+			]
+		},
+		{
+			"name": "Wonder Woman",
+			"age": 3000,
+			"secretIdentity": "Diana Prince",
+			"powers": [
+				"Super strength",
+				"Flight",
+				"Combat skills",
+				"Lasso of Truth",
+				"Divine wisdom"
+			]
+		}
+	]
+}
+{
+	"squadName": "Dr Evil's Group",
+	"homeTown": "Las Vegas",
+	"formed": 1997,
+	"status": "evil",
+	"secretBase": "Underground lair",
+	"active": true,
+	"members": [
+		{
+			"name": "Dr. Evil",
+			"age": 58,
+			"secretIdentity": "Douglas Powers",
+			"powers": [
+				"Genius-level intellect",
+				"Master strategist",
+				"Evil laugh",
+				"Henchmen"
+			]
+		},
+		{
+			"name": "Mini-Me",
+			"age": 28,
+			"secretIdentity": "Verne Troyer",
+			"powers": [
+				"Clone of Dr. Evil",
+				"Miniaturization"
+			]
+		}
+	]
+}
+{
+	"squadName": "The X-Men",
+	"homeTown": "Westchester County",
+	"formed": 1963,
+	"status": "good",
+	"secretBase": "Xavier's School for Gifted Youngsters",
+	"active": true,
+	"members": [
+		{
+			"name": "Professor X",
+			"age": 65,
+			"secretIdentity": "Charles Xavier",
+			"powers": [
+				"Telepathy",
+				"Genius-level intellect"
+			]
+		},
+		{
+			"name": "Wolverine",
+			"age": 200,
+			"secretIdentity": "Logan",
+			"powers": [
+				"Regenerative healing factor",
+				"Adamantium skeleton",
+				"Retractable claws"
+			]
+		},
+		{
+			"name": "Storm",
+			"age": 35,
+			"secretIdentity": "Ororo Munroe",
+			"powers": [
+				"Atmokinesis",
+				"Flight",
+				"Elemental control"
+			]
+		},
+		{
+			"name": "Cyclops",
+			"age": 35,
+			"secretIdentity": "Scott Summers",
+			"powers": [
+				"Optic blasts",
+				"Energy absorption",
+				"Expert tactician"
+			]
+		},
+		{
+			"name": "Jean Grey",
+			"age": 35,
+			"secretIdentity": "Jean Grey",
+			"powers": [
+				"Telekinesis",
+				"Telepathy",
+				"Phoenix Force"
+			]
+		}
+	]
+}
+{
+	"squadName": "The Incredibles",
+	"homeTown": "Metroville",
+	"formed": 2004,
+	"status": "good",
+	"secretBase": "Parr Residence",
+	"active": true,
+	"members": [
+		{
+			"name": "Mr. Incredible",
+			"age": 45,
+			"secretIdentity": "Bob Parr",
+			"powers": [
+				"Super strength",
+				"Enhanced durability"
+			]
+		},
+		{
+			"name": "Elastigirl",
+			"age": 40,
+			"secretIdentity": "Helen Parr",
+			"powers": [
+				"Elasticity",
+				"Shape manipulation"
+			]
+		},
+		{
+			"name": "Violet Parr",
+			"age": 17,
+			"secretIdentity": "Violet Parr",
+			"powers": [
+				"Invisibility",
+				"Force field generation"
+			]
+		},
+		{
+			"name": "Dash Parr",
+			"age": 15,
+			"secretIdentity": "Dash Parr",
+			"powers": [
+				"Super speed"
+			]
+		},
+		{
+			"name": "Jack-Jack",
+			"age": 1,
+			"secretIdentity": "Jack-Jack Parr",
+			"powers": [
+				"Multiple powers (shapeshifting, laser vision, etc.)"
+			]
+		}
+	]
+}
