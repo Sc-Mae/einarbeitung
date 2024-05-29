@@ -1,19 +1,22 @@
-### Aufsetzen einer VM (Empfohlen: Rocky Linux) 
+# Einrichten einer Virtual Machine (VM) unter Rocky Linux
 
-Folge der Anleitung in der KnowledgeBase, um eine VM einzurichten. Stelle sicher, dass du die Scaltel Repos für den Packetmanager hinterlegst. Lege verschiedene Benutzer an:
+## Beschreibung
+In diesem Projekt wird eine Virtual Machine (VM) unter Rocky Linux eingerichtet. Es werden verschiedene Benutzer angelegt, die Partitionierung vorgenommen und verschiedene Programme installiert.
 
-- `root`
-- `admin` mit sudo-Berechtigung
-- `entwickler` ohne sudo-Berechtigung
+## Anleitung
+Folge der Anleitung in der KnowledgeBase, um eine VM einzurichten. Stelle sicher, dass du die Scaltel Repos für den Packetmanager hinterlegst.
 
-### Partitionierung:
+### Benutzer anlegen
+- `root`: Der Hauptbenutzer mit vollständigen administrativen Rechten.
+- `admin`: Ein Benutzer mit sudo-Berechtigungen.
+- `entwickler`: Ein Benutzer ohne sudo-Berechtigungen.
 
-- `/`
-- `/var/`
-- `/home/`
+### Partitionierung
+- `/`: Das Stammverzeichnis.
+- `/var/`: Das Verzeichnis für variable Daten.
+- `/home/`: Das Verzeichnis für Benutzerdaten.
 
-### Installierte Programme:
-
+### Installierte Programme
 a) GUI  
 b) IDE  
 c) Git  
@@ -21,28 +24,37 @@ d) Docker
 e) Python  
 f) Docker-compose  
 
-### Fragen:
+## Fragen und Antworten
+- Was ist Linux und wie unterscheidet es sich von anderen Betriebssystemen wie Windows oder macOS?
+- Was sind die Vorteile der Verwendung von Linux im Vergleich zu anderen Betriebssystemen?
+- Was ist Virtualisierung und welche Vorteile bieten VMs?
+- Was sind yum und dnf?
+- Was ist eine IDE und wie unterscheidet sie sich von einem Texteditor?
+- Was ist der Unterschied zwischen einem LSP und einem Texteditor?
+- Wie kann man Programme im Hintergrund laufen lassen und Prozesse verwalten?
+- Wie kann man Skripte unter Linux erstellen und ausführen?
+- Was ist ein Linux-Kernel und wie kann man ihn aktualisieren?
+- Was sind symbolische Links und wie unterscheiden sie sich von Hardlinks?
+- Welche Vorteile bietet die Nutzung von LTS (Long Term Support) Versionen einer Linux-Distribution?
+- Wie schreibt man Kommentare in Bash?
+- Was ist vim?
 
-1. Was ist Linux und wie unterscheidet es sich von anderen Betriebssystemen wie Windows oder macOS?
-2. Was sind die Vorteile der Verwendung von Linux im Vergleich zu anderen Betriebssystemen?
-3. Was ist Virtualisierung und welche Vorteile bieten VMs?
-4. Was sind `yum` und `dnf`?
-5. Was ist eine IDE und wie unterscheidet sie sich von einem Texteditor?
-6. Was ist der Unterschied zwischen einem LSP und einem Texteditor?
-7. Wie kann man Programme im Hintergrund laufen lassen und Prozesse verwalten?
-8. Wie kann man Skripte unter Linux erstellen und ausführen?
-9. Was ist ein Linux-Kernel und wie kann man ihn aktualisieren?
-10. Was sind symbolische Links und wie unterscheiden sie sich von Hardlinks?
-11. Welche Vorteile bietet die Nutzung von LTS (Long Term Support) Versionen einer Linux-Distribution?
-12. Wie schreibt man Kommentare in Bash?
-13. Was ist `vim`?
+### Linux-Befehle
+- `history`
+- `chmod`
+- `chown`
+- `mv test.txt abc`
+- `ll | grep test`
+- `find . -name cisco`
+- `find / -name cisco`
+- `tar -xvf archive.tar.gz`
+- `df -h`
+- `du -sh directory`
+- `ps aux`
+- `grep pattern file`
+- `top`
+- `netstat -tuln`
+- `ifconfig`
+- `ping host`
 
-### Linux-Befehle:
 
-a) `history` - Zeigt die Liste der bereits ausgeführten Befehle an  
-b) `chmod` - Ändert die Dateiberechtigungen  
-c) `chown` - Ändert den Eigentümer einer Datei oder eines Verzeichnisses  
-d) `mv test.txt abc` - Verschiebt oder benennt die Datei `test.txt` in `abc` um  
-e) `ll | grep test` - Listet Dateien im aktuellen Verzeichnis auf, die "test" im Namen enthalten  
-f) `find . -name cisco` - Sucht nach Dateien mit dem Namen "cisco" im aktuellen Verzeichnis und seinen Unterverzeichnissen  
-g) `find / -name cisco` - Sucht nach Dateien mit dem Namen "cisco" im gesamten Dateisystem

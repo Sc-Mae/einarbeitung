@@ -42,7 +42,7 @@
 11. Welche weiteren objektorientierten Programmiersprachen neben Python gibt es? (3 Beispiele)
 12. Korrigiere die Fehlerhaften Skripte.
 
-##Code 1
+### Code 1
 ```python
 class MyClass:
     def __init__(name):
@@ -56,7 +56,7 @@ obj.greet()
 ```
 
 
-##Code 2
+### Code 2
 ```python
 def say_hello():
 print("Hello, World!")  
@@ -65,7 +65,7 @@ say_hello()
 ```
 
 
-##Code 3 
+### Code 3 
 ```python
 x = 10
 if x = 5:   
@@ -73,7 +73,7 @@ if x = 5:
 ```
 
 
-##Code 4
+### Code 4
 ```python
 numbers = (1, 2, 3, 4, 5) 
 for i in range(len(numbers)):
@@ -81,7 +81,7 @@ for i in range(len(numbers)):
 ```
 
 
-##Code 4
+### Code 5
 ```python
 values = [1, 2, 3, 4, 5]
 a, b, c = values
