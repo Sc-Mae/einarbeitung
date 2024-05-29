@@ -1,57 +1,48 @@
-Aufgabe:
+### Aufsetzen einer VM (Empfohlen: Rocky Linux) 
 
-1. Aufsetzen einer VM (Empfohlen: Rocky Linux) Anleitung dazu in KnowledgeBase
-    
-    Hinterlege die Scaltel Repos für den Packetmanager
-    
-    Lege verschiedene User an:
-        root
-        admin mit sudo Berechtigung
-        entwickler ohne sudo Berechtigung
+Folge der Anleitung in der KnowledgeBase, um eine VM einzurichten. Stelle sicher, dass du die Scaltel Repos für den Packetmanager hinterlegst. Lege verschiedene Benutzer an:
 
-    Partitionierung:
-        /
-        /var/
-        /home/
-    
+- `root`
+- `admin` mit sudo-Berechtigung
+- `entwickler` ohne sudo-Berechtigung
 
-	Installierte Programme:
-	a) GUI
-	b) IDE
-	c) Git
-	d) Docker
-	e) Python
-    f) Docker-compose   
+### Partitionierung:
 
-Fragen:
+- `/`
+- `/var/`
+- `/home/`
 
-Was ist Linux und wie unterscheidet es sich von anderen Betriebssystemen wie Windows oder macOS?
-Was sind die Vorteile der Verwendung von Linux im Vergleich zu anderen Betriebssystemen?
-Was ist Virtualisierung? 
-Was sind Vorteile von VMs? 
-Was sind yum und dnf? 
-Was ist eine IDE?
-Was ist der unterschied zwischen einer IDE und einem Texteditor?
-Was ist ein LSP?
-Wie kann man Programme im Hintergrund laufen lassen und Prozesse verwalten?
-Wie kann man Skripte unter Linux erstellen und ausführen?
-Was ist ein Linux-Kernel und wie kann man ihn aktualisieren?
-Was sind symbolische Links und wie unterscheiden sie sich von Hardlinks?
-Welche Vorteile bietet die Nutzung von LTS (Long Term Support) Versionen einer Linux-Distribution?
-Wie schreibt man Kommentare in Bash? 
-Was ist vim?
+### Installierte Programme:
 
-Was machen folgende Befehle (Linux):
-	a) history 
-	b) chmod 
-	c) chown
-	d) mv test.txt abc 
-	e) ll |grep test 
-	f) find . -name cisco 
-	g) find / -name cisco 
-	h) Alias ll = "ls -l" 
-	i) scp test.txt root@123.123.123.123:/root/das/ist/ein/test 
-	j) rm -f config.ini 
-	k) pwd
-	l) free mem
-	m) wget http://example.com/
+a) GUI  
+b) IDE  
+c) Git  
+d) Docker  
+e) Python  
+f) Docker-compose  
+
+### Fragen:
+
+1. Was ist Linux und wie unterscheidet es sich von anderen Betriebssystemen wie Windows oder macOS?
+2. Was sind die Vorteile der Verwendung von Linux im Vergleich zu anderen Betriebssystemen?
+3. Was ist Virtualisierung und welche Vorteile bieten VMs?
+4. Was sind `yum` und `dnf`?
+5. Was ist eine IDE und wie unterscheidet sie sich von einem Texteditor?
+6. Was ist der Unterschied zwischen einem LSP und einem Texteditor?
+7. Wie kann man Programme im Hintergrund laufen lassen und Prozesse verwalten?
+8. Wie kann man Skripte unter Linux erstellen und ausführen?
+9. Was ist ein Linux-Kernel und wie kann man ihn aktualisieren?
+10. Was sind symbolische Links und wie unterscheiden sie sich von Hardlinks?
+11. Welche Vorteile bietet die Nutzung von LTS (Long Term Support) Versionen einer Linux-Distribution?
+12. Wie schreibt man Kommentare in Bash?
+13. Was ist `vim`?
+
+### Linux-Befehle:
+
+a) `history` - Zeigt die Liste der bereits ausgeführten Befehle an  
+b) `chmod` - Ändert die Dateiberechtigungen  
+c) `chown` - Ändert den Eigentümer einer Datei oder eines Verzeichnisses  
+d) `mv test.txt abc` - Verschiebt oder benennt die Datei `test.txt` in `abc` um  
+e) `ll | grep test` - Listet Dateien im aktuellen Verzeichnis auf, die "test" im Namen enthalten  
+f) `find . -name cisco` - Sucht nach Dateien mit dem Namen "cisco" im aktuellen Verzeichnis und seinen Unterverzeichnissen  
+g) `find / -name cisco` - Sucht nach Dateien mit dem Namen "cisco" im gesamten Dateisystem
