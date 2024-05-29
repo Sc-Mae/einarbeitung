@@ -40,4 +40,3 @@ Jeder Unterordner des Projekts behandelt ein bestimmtes Thema und enthält eine 
 6. [06_JavaScript](06_JavaScript/README.md)
 7. [07_API](07_API/README.md)
 8. [08_Docker](08_Docker/README.md)
-## Vorgehensweise
