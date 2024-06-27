@@ -55,7 +55,7 @@ class Squad:
         new_member = Member(name, age, secretidentity, powers)
         self._members.append(new_member)
 
-    def output_squad(self, squad_number) -> None:
+    def output_squad(self, squad_number: int) -> None:
         """Ausgabe eines Squads und dessen Member"""
         if squad_number < len(squads):
             squad = squads[squad_number]
@@ -72,7 +72,7 @@ class Squad:
         for member in self._members:
             print(f"Name: {member.get_name()}, UUID: {member.get_uuid()}")
 
-    def remove_member_by_uuid(self, member_uuid) -> None:
+    def remove_member_by_uuid(self, member_uuid: str) -> None:
         """Methoode zum löschen eines Members anhand der uuid"""
         self._members = [
             member for member in self._members if member.get_uuid() != member_uuid
@@ -98,11 +98,12 @@ for squad_data in data:
         )
     squads.append(squad_int)
 
-x = int(input("zu welchem Team soll Ironman hinzugefügt werden(0-10): "))
+x = int(input("zu welchem Team soll der neue Member hinzugefügt werden(0-10): "))
 squads[x].add_member("Ironman", 41, "Tony Stark", ["Fighting", "Lasers"])
 
 squads[0].list_members_with_uuid()
 
-squads[0].remove_member_by_uuid(input("gebe die ID des zu löschenden Members an: "))
+member_uuid = input("Geben Sie die UUID des zu löschenden Mitglieds ein: ")
+squads[0].remove_member_by_uuid(member_uuid)
 
 squads[0].output_squad(0)
