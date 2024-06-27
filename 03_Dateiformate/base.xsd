@@ -1,0 +1,268 @@
+<xs:element name = "root">
+<xs:complexType>
+<xs:sequence>
+<xs:element name = "row-0">
+<xs:complexType>
+<xs:sequence>
+<xs:element type = " xs: string" name = "squadName"/>
+<xs:element type = " xs: string" name = "homeTown"/>
+<xs:element type = " xs: short" name = "formed"/>
+<xs:element type = " xs: string" name = "status"/>
+<xs:element type = " xs: string" name = "secretBase"/>
+<xs:element type = " xs: string" name = "active"/>
+<xs:element name = "members">
+<xs:complexType>
+<xs:sequence>
+<xs:element type = " xs: string" name = "name"/>
+<xs:element type = " xs: byte" name = "age"/>
+<xs:element type = " xs: string" name = "secretIdentity"/>
+<xs:element type = " xs: string" name = "powers"/>
+<xs:element type = " xs: string" name = "powers"/>
+<xs:element type = " xs: string" name = "powers"/>
+ </xs:sequence>
+</xs:complexType>
+</xs:element>
+ </xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name = "row-1">
+<xs:complexType>
+<xs:sequence>
+<xs:element type = " xs: string" name = "squadName"/>
+<xs:element type = " xs: string" name = "homeTown"/>
+<xs:element type = " xs: short" name = "formed"/>
+<xs:element type = " xs: string" name = "status"/>
+<xs:element type = " xs: string" name = "secretBase"/>
+<xs:element type = " xs: string" name = "active"/>
+<xs:element name = "members">
+<xs:complexType>
+<xs:sequence>
+<xs:element type = " xs: string" name = "name"/>
+<xs:element type = " xs: byte" name = "age"/>
+<xs:element type = " xs: string" name = "secretIdentity"/>
+<xs:element type = " xs: string" name = "powers"  maxOccurs="unbounded" minOccurs="0" />
+<xs:element type = " xs: string" name = "powers"  maxOccurs="unbounded" minOccurs="0" />
+<xs:element type = " xs: string" name = "powers"  maxOccurs="unbounded" minOccurs="0" />
+ </xs:sequence>
+</xs:complexType>
+</xs:element>
+ </xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name = "row-2">
+<xs:complexType>
+<xs:sequence>
+<xs:element type = " xs: string" name = "squadName"/>
+<xs:element type = " xs: string" name = "homeTown"/>
+<xs:element type = " xs: short" name = "formed"/>
+<xs:element type = " xs: string" name = "secretBase"/>
+<xs:element type = " xs: string" name = "active"/>
+<xs:element type = " xs: string" name = "status"/>
+<xs:element name = "members"  maxOccurs="unbounded" minOccurs="0" >
+<xs:complexType>
+<xs:sequence>
+<xs:element type = " xs: string" name = "name"/>
+<xs:element type = " xs: byte" name = "age"/>
+<xs:element type = " xs: string" name = "secretIdentity"/>
+<xs:element type = " xs: string" name = "powers"/>
+<xs:element type = " xs: string" name = "powers"/>
+ </xs:sequence>
+</xs:complexType>
+</xs:element>
+ </xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name = "row-3">
+<xs:complexType>
+<xs:sequence>
+<xs:element type = " xs: string" name = "squadName"/>
+<xs:element type = " xs: string" name = "homeTown"/>
+<xs:element type = " xs: short" name = "formed"/>
+<xs:element type = " xs: string" name = "secretBase"/>
+<xs:element type = " xs: string" name = "active"/>
+<xs:element type = " xs: string" name = "status"/>
+<xs:element name = "members"  maxOccurs="unbounded" minOccurs="0" >
+<xs:complexType>
+<xs:sequence>
+<xs:element type = " xs: string" name = "name"/>
+<xs:element type = " xs: byte" name = "age"/>
+<xs:element type = " xs: string" name = "secretIdentity"/>
+<xs:element type = " xs: string" name = "powers"/>
+<xs:element type = " xs: string" name = "powers"/>
+ </xs:sequence>
+</xs:complexType>
+</xs:element>
+ </xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name = "row-4">
+<xs:complexType>
+<xs:sequence>
+<xs:element type = " xs: string" name = "squadName"/>
+<xs:element type = " xs: string" name = "homeTown"/>
+<xs:element type = " xs: short" name = "formed"/>
+<xs:element type = " xs: string" name = "status"/>
+<xs:element type = " xs: string" name = "secretBase"/>
+<xs:element type = " xs: string" name = "active"/>
+<xs:element name = "members"  maxOccurs="unbounded" minOccurs="0" >
+<xs:complexType>
+<xs:sequence>
+<xs:element type = " xs: string" name = "name"/>
+<xs:element type = " xs: byte" name = "age"/>
+<xs:element type = " xs: string" name = "secretIdentity"/>
+<xs:element type = " xs: string" name = "powers"  maxOccurs="unbounded" minOccurs="0" />
+<xs:element type = " xs: string" name = "powers"  maxOccurs="unbounded" minOccurs="0" />
+<xs:element type = " xs: string" name = "powers"  maxOccurs="unbounded" minOccurs="0" />
+ </xs:sequence>
+</xs:complexType>
+</xs:element>
+ </xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name = "row-5">
+<xs:complexType>
+<xs:sequence>
+<xs:element type = " xs: string" name = "squadName"/>
+<xs:element type = " xs: string" name = "homeTown"/>
+<xs:element type = " xs: short" name = "formed"/>
+<xs:element type = " xs: string" name = "status"/>
+<xs:element type = " xs: string" name = "secretBase"/>
+<xs:element type = " xs: string" name = "active"/>
+<xs:element name = "members">
+<xs:complexType>
+<xs:sequence>
+<xs:element type = " xs: string" name = "name"/>
+<xs:element type = " xs: byte" name = "age"/>
+<xs:element type = " xs: string" name = "secretIdentity"/>
+<xs:element type = " xs: string" name = "powers"  maxOccurs="unbounded" minOccurs="0" />
+<xs:element type = " xs: string" name = "powers"  maxOccurs="unbounded" minOccurs="0" />
+<xs:element type = " xs: string" name = "powers"  maxOccurs="unbounded" minOccurs="0" />
+ </xs:sequence>
+</xs:complexType>
+</xs:element>
+ </xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name = "row-6">
+<xs:complexType>
+<xs:sequence>
+<xs:element type = " xs: string" name = "squadName"/>
+<xs:element type = " xs: string" name = "homeTown"/>
+<xs:element type = " xs: short" name = "formed"/>
+<xs:element type = " xs: string" name = "status"/>
+<xs:element type = " xs: string" name = "secretBase"/>
+<xs:element type = " xs: string" name = "active"/>
+<xs:element name = "members">
+<xs:complexType>
+<xs:sequence>
+<xs:element type = " xs: string" name = "name"/>
+<xs:element type = " xs: byte" name = "age"/>
+<xs:element type = " xs: string" name = "secretIdentity"/>
+<xs:element type = " xs: string" name = "powers"/>
+<xs:element type = " xs: string" name = "powers"/>
+<xs:element type = " xs: string" name = "powers"/>
+ </xs:sequence>
+</xs:complexType>
+</xs:element>
+ </xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name = "row-7">
+<xs:complexType>
+<xs:sequence>
+<xs:element type = " xs: string" name = "squadName"/>
+<xs:element type = " xs: string" name = "homeTown"/>
+<xs:element type = " xs: short" name = "formed"/>
+<xs:element type = " xs: string" name = "status"/>
+<xs:element type = " xs: string" name = "secretBase"/>
+<xs:element type = " xs: string" name = "active"/>
+<xs:element name = "members">
+<xs:complexType>
+<xs:sequence>
+<xs:element type = " xs: string" name = "name"/>
+<xs:element type = " xs: byte" name = "age"/>
+<xs:element type = " xs: string" name = "secretIdentity"/>
+<xs:element type = " xs: string" name = "powers"/>
+<xs:element type = " xs: string" name = "powers"/>
+<xs:element type = " xs: string" name = "powers"/>
+ </xs:sequence>
+</xs:complexType>
+</xs:element>
+ </xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name = "row-8">
+<xs:complexType>
+<xs:sequence>
+<xs:element type = " xs: string" name = "squadName"/>
+<xs:element type = " xs: string" name = "homeTown"/>
+<xs:element type = " xs: short" name = "formed"/>
+<xs:element type = " xs: string" name = "status"/>
+<xs:element type = " xs: string" name = "secretBase"/>
+<xs:element type = " xs: string" name = "active"/>
+<xs:element name = "members"  maxOccurs="unbounded" minOccurs="0" >
+<xs:complexType>
+<xs:sequence>
+<xs:element type = " xs: string" name = "name"/>
+<xs:element type = " xs: byte" name = "age"/>
+<xs:element type = " xs: string" name = "secretIdentity"/>
+<xs:element type = " xs: string" name = "powers"/>
+<xs:element type = " xs: string" name = "powers"/>
+ </xs:sequence>
+</xs:complexType>
+</xs:element>
+ </xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name = "row-9">
+<xs:complexType>
+<xs:sequence>
+<xs:element type = " xs: string" name = "squadName"/>
+<xs:element type = " xs: string" name = "homeTown"/>
+<xs:element type = " xs: short" name = "formed"/>
+<xs:element type = " xs: string" name = "status"/>
+<xs:element type = " xs: string" name = "secretBase"/>
+<xs:element type = " xs: string" name = "active"/>
+<xs:element name = "members">
+<xs:complexType>
+<xs:sequence>
+<xs:element type = " xs: string" name = "name"/>
+<xs:element type = " xs: byte" name = "age"/>
+<xs:element type = " xs: string" name = "secretIdentity"/>
+<xs:element type = " xs: string" name = "powers"  maxOccurs="unbounded" minOccurs="0" />
+<xs:element type = " xs: string" name = "powers"  maxOccurs="unbounded" minOccurs="0" />
+<xs:element type = " xs: string" name = "powers"  maxOccurs="unbounded" minOccurs="0" />
+ </xs:sequence>
+</xs:complexType>
+</xs:element>
+ </xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name = "row-10">
+<xs:complexType>
+<xs:sequence>
+<xs:element type = " xs: string" name = "squadName"/>
+<xs:element type = " xs: string" name = "homeTown"/>
+<xs:element type = " xs: short" name = "formed"/>
+<xs:element type = " xs: string" name = "status"/>
+<xs:element type = " xs: string" name = "secretBase"/>
+<xs:element type = " xs: string" name = "active"/>
+<xs:element name = "members">
+<xs:complexType>
+<xs:sequence>
+<xs:element type = " xs: string" name = "name"/>
+<xs:element type = " xs: byte" name = "age"/>
+<xs:element type = " xs: string" name = "secretIdentity"/>
+<xs:element type = " xs: string" name = "powers"  maxOccurs="unbounded" minOccurs="0" />
+<xs:element type = " xs: string" name = "powers"  maxOccurs="unbounded" minOccurs="0" />
+<xs:element type = " xs: string" name = "powers"  maxOccurs="unbounded" minOccurs="0" />
+ </xs:sequence>
+</xs:complexType>
+</xs:element>
+ </xs:sequence>
+</xs:complexType>
+</xs:element>
+ </xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>
