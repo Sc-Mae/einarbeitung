@@ -24,6 +24,6 @@
 7. Was versteht man unter Validierung?
   - Die Bestätigung, dass ein Produkt oder eine Dienstleistung den Erwartungen entspricht  
 8. An was erinnert eine XML-Datei bzgl. ihres Aufbaus?
-  - XML-Dokumente haben eine Baumstruktur
+  - XML-Dokumente haben eine art Baumstruktur
 9. Was bedeutet Parsen?
   - die Umwandlung von Daten in ein anderes Format 
