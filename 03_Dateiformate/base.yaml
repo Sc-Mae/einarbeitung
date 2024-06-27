@@ -1,336 +1,336 @@
-- squadName: Super hero squad
-  homeTown: Metro City
+- active: true
   formed: 2016
-  status: good
+  homeTown: Metro City
+  members:
+  - age: 29
+    name: Molecule Man
+    powers:
+    - Radiation resistance
+    - Turning tiny
+    - Radiation blast
+    secretIdentity: Dan Jukes
+  - age: 39
+    name: Madame Uppercut
+    powers:
+    - Million tonne punch
+    - Damage resistance
+    - Superhuman reflexes
+    secretIdentity: Jane Wilson
+  - age: 1000000
+    name: Eternal Flame
+    powers:
+    - Immortality
+    - Heat Immunity
+    - Inferno
+    - Teleportation
+    - Interdimensional travel
+    secretIdentity: Unknown
   secretBase: Super tower
-  active: true
-  members:
-    - name: Molecule Man
-      age: 29
-      secretIdentity: Dan Jukes
-      powers:
-        - Radiation resistance
-        - Turning tiny
-        - Radiation blast
-    - name: Madame Uppercut
-      age: 39
-      secretIdentity: Jane Wilson
-      powers:
-        - Million tonne punch
-        - Damage resistance
-        - Superhuman reflexes
-    - name: Eternal Flame
-      age: 1000000
-      secretIdentity: Unknown
-      powers:
-        - Immortality
-        - Heat Immunity
-        - Inferno
-        - Teleportation
-        - Interdimensional travel
-- squadName: Avengers
-  homeTown: New York
+  squadName: Super hero squad
+  status: good
+- active: true
   formed: 2012
-  status: good
+  homeTown: New York
+  members:
+  - age: 42
+    name: Iron Man
+    powers:
+    - Genius-level intellect
+    - Powered armor suit
+    - Flight
+    - Energy repulsors
+    secretIdentity: Tony Stark
+  - age: 33
+    name: Captain America
+    powers:
+    - Superhuman strength
+    - Enhanced agility
+    - Expert martial artist
+    - Vibranium shield
+    secretIdentity: Steve Rogers
+  - age: 1500
+    name: Thor
+    powers:
+    - Asgardian physiology
+    - Superhuman strength
+    - Control over lightning
+    - Mjolnir (enchanted hammer)
+    secretIdentity: Thor Odinson
   secretBase: Stark Tower
-  active: true
-  members:
-    - name: Iron Man
-      age: 42
-      secretIdentity: Tony Stark
-      powers:
-        - Genius-level intellect
-        - Powered armor suit
-        - Flight
-        - Energy repulsors
-    - name: Captain America
-      age: 33
-      secretIdentity: Steve Rogers
-      powers:
-        - Superhuman strength
-        - Enhanced agility
-        - Expert martial artist
-        - Vibranium shield
-    - name: Thor
-      age: 1500
-      secretIdentity: Thor Odinson
-      powers:
-        - Asgardian physiology
-        - Superhuman strength
-        - Control over lightning
-        - Mjolnir (enchanted hammer)
-- squadName: X-Force
-  homeTown: New York
+  squadName: Avengers
+  status: good
+- active: true
   formed: 2020
+  homeTown: New York
+  members:
+  - age: 42
+    name: Deadpool
+    powers:
+    - Regenerative healing factor
+    - Expert marksman
+    - Master martial artist
+    - Fourth wall awareness
+    secretIdentity: Wade Wilson
+  - age: 32
+    name: Domino
+    powers:
+    - Luck manipulation
+    - Expert marksmanship
+    - Skilled hand-to-hand combatant
+    secretIdentity: Neena Thurman
   secretBase: X-Mansion
-  active: true
+  squadName: X-Force
   status: neutral
-  members:
-    - name: Deadpool
-      age: 42
-      secretIdentity: Wade Wilson
-      powers:
-        - Regenerative healing factor
-        - Expert marksman
-        - Master martial artist
-        - Fourth wall awareness
-    - name: Domino
-      age: 32
-      secretIdentity: Neena Thurman
-      powers:
-        - Luck manipulation
-        - Expert marksmanship
-        - Skilled hand-to-hand combatant
-- squadName: Guardians of the Galaxy
-  homeTown: Xandar
+- active: true
   formed: 2014
+  homeTown: Xandar
+  members:
+  - age: 40
+    name: Star-Lord
+    powers:
+    - Strategic leadership
+    - Expert pilot
+    - Skilled hand-to-hand combatant
+    - Element Gun
+    secretIdentity: Peter Quill
+  - age: 35
+    name: Gamora
+    powers:
+    - Enhanced strength
+    - Master assassin
+    - Expert martial artist
+    - Skilled swordswoman
+    secretIdentity: Gamora
   secretBase: Knowhere
-  active: true
+  squadName: Guardians of the Galaxy
   status: good
-  members:
-    - name: Star-Lord
-      age: 40
-      secretIdentity: Peter Quill
-      powers:
-        - Strategic leadership
-        - Expert pilot
-        - Skilled hand-to-hand combatant
-        - Element Gun
-    - name: Gamora
-      age: 35
-      secretIdentity: Gamora
-      powers:
-        - Enhanced strength
-        - Master assassin
-        - Expert martial artist
-        - Skilled swordswoman
-- squadName: Fantastic Four
-  homeTown: New York
+- active: true
   formed: 1961
-  status: good
-  secretBase: Baxter Building
-  active: true
-  members:
-    - name: Mr. Fantastic
-      age: 45
-      secretIdentity: Reed Richards
-      powers:
-        - Elasticity
-        - Superhuman intellect
-    - name: Invisible Woman
-      age: 38
-      secretIdentity: Sue Storm
-      powers:
-        - Invisibility
-        - Force field generation
-    - name: Human Torch
-      age: 30
-      secretIdentity: Johnny Storm
-      powers:
-        - Pyrokinesis
-        - Flight
-    - name: The Thing
-      age: 40
-      secretIdentity: Ben Grimm
-      powers:
-        - Superhuman strength
-        - Durable rock-like skin
-- squadName: Teen Titans
-  homeTown: Jump City
-  formed: 1980
-  status: good
-  secretBase: Titans Tower
-  active: true
-  members:
-    - name: Robin
-      age: 20
-      secretIdentity: Dick Grayson
-      powers:
-        - Master acrobat
-        - Strategic mind
-    - name: Starfire
-      age: 22
-      secretIdentity: Koriand'r
-      powers:
-        - Flight
-        - Energy projection
-        - Superhuman strength
-    - name: Cyborg
-      age: 25
-      secretIdentity: Victor Stone
-      powers:
-        - Cybernetic enhancements
-        - Super strength
-        - Technopathy
-    - name: Beast Boy
-      age: 18
-      secretIdentity: Garfield Logan
-      powers:
-        - Shapeshifting
-        - Animal mimicry
-    - name: Raven
-      age: 21
-      secretIdentity: Raven
-      powers:
-        - Telekinesis
-        - Teleportation
-        - Astral projection
-- squadName: Sinister Six
   homeTown: New York
+  members:
+  - age: 45
+    name: Mr. Fantastic
+    powers:
+    - Elasticity
+    - Superhuman intellect
+    secretIdentity: Reed Richards
+  - age: 38
+    name: Invisible Woman
+    powers:
+    - Invisibility
+    - Force field generation
+    secretIdentity: Sue Storm
+  - age: 30
+    name: Human Torch
+    powers:
+    - Pyrokinesis
+    - Flight
+    secretIdentity: Johnny Storm
+  - age: 40
+    name: The Thing
+    powers:
+    - Superhuman strength
+    - Durable rock-like skin
+    secretIdentity: Ben Grimm
+  secretBase: Baxter Building
+  squadName: Fantastic Four
+  status: good
+- active: true
+  formed: 1980
+  homeTown: Jump City
+  members:
+  - age: 20
+    name: Robin
+    powers:
+    - Master acrobat
+    - Strategic mind
+    secretIdentity: Dick Grayson
+  - age: 22
+    name: Starfire
+    powers:
+    - Flight
+    - Energy projection
+    - Superhuman strength
+    secretIdentity: Koriand'r
+  - age: 25
+    name: Cyborg
+    powers:
+    - Cybernetic enhancements
+    - Super strength
+    - Technopathy
+    secretIdentity: Victor Stone
+  - age: 18
+    name: Beast Boy
+    powers:
+    - Shapeshifting
+    - Animal mimicry
+    secretIdentity: Garfield Logan
+  - age: 21
+    name: Raven
+    powers:
+    - Telekinesis
+    - Teleportation
+    - Astral projection
+    secretIdentity: Raven
+  secretBase: Titans Tower
+  squadName: Teen Titans
+  status: good
+- active: true
   formed: 1984
-  status: evil
+  homeTown: New York
+  members:
+  - age: 58
+    name: Doctor Octopus
+    powers:
+    - Mechanical tentacles
+    - Genius-level intellect
+    - Expert engineer
+    secretIdentity: Otto Octavius
+  - age: 45
+    name: Green Goblin
+    powers:
+    - Enhanced strength
+    - Flight
+    - Goblin-themed weaponry
+    secretIdentity: Norman Osborn
+  - age: 35
+    name: Electro
+    powers:
+    - Electrokinesis
+    - Electricity manipulation
+    - Superhuman agility
+    secretIdentity: Max Dillon
   secretBase: Abandoned warehouse
-  active: true
-  members:
-    - name: Doctor Octopus
-      age: 58
-      secretIdentity: Otto Octavius
-      powers:
-        - Mechanical tentacles
-        - Genius-level intellect
-        - Expert engineer
-    - name: Green Goblin
-      age: 45
-      secretIdentity: Norman Osborn
-      powers:
-        - Enhanced strength
-        - Flight
-        - Goblin-themed weaponry
-    - name: Electro
-      age: 35
-      secretIdentity: Max Dillon
-      powers:
-        - Electrokinesis
-        - Electricity manipulation
-        - Superhuman agility
-- squadName: Justice League
-  homeTown: Metropolis
-  formed: 1960
-  status: good
-  secretBase: Hall of Justice
-  active: true
-  members:
-    - name: Superman
-      age: 35
-      secretIdentity: Clark Kent
-      powers:
-        - Flight
-        - Super strength
-        - Heat vision
-        - Freeze breath
-        - Invulnerability
-    - name: Batman
-      age: 42
-      secretIdentity: Bruce Wayne
-      powers:
-        - Genius-level intellect
-        - Wealth
-        - Expert detective
-        - Master martial artist
-        - Advanced technology
-    - name: Wonder Woman
-      age: 3000
-      secretIdentity: Diana Prince
-      powers:
-        - Super strength
-        - Flight
-        - Combat skills
-        - Lasso of Truth
-        - Divine wisdom
-- squadName: Dr Evil's Group
-  homeTown: Las Vegas
-  formed: 1997
+  squadName: Sinister Six
   status: evil
+- active: true
+  formed: 1960
+  homeTown: Metropolis
+  members:
+  - age: 35
+    name: Superman
+    powers:
+    - Flight
+    - Super strength
+    - Heat vision
+    - Freeze breath
+    - Invulnerability
+    secretIdentity: Clark Kent
+  - age: 42
+    name: Batman
+    powers:
+    - Genius-level intellect
+    - Wealth
+    - Expert detective
+    - Master martial artist
+    - Advanced technology
+    secretIdentity: Bruce Wayne
+  - age: 3000
+    name: Wonder Woman
+    powers:
+    - Super strength
+    - Flight
+    - Combat skills
+    - Lasso of Truth
+    - Divine wisdom
+    secretIdentity: Diana Prince
+  secretBase: Hall of Justice
+  squadName: Justice League
+  status: good
+- active: true
+  formed: 1997
+  homeTown: Las Vegas
+  members:
+  - age: 58
+    name: Dr. Evil
+    powers:
+    - Genius-level intellect
+    - Master strategist
+    - Evil laugh
+    - Henchmen
+    secretIdentity: Douglas Powers
+  - age: 28
+    name: Mini-Me
+    powers:
+    - Clone of Dr. Evil
+    - Miniaturization
+    secretIdentity: Verne Troyer
   secretBase: Underground lair
-  active: true
-  members:
-    - name: Dr. Evil
-      age: 58
-      secretIdentity: Douglas Powers
-      powers:
-        - Genius-level intellect
-        - Master strategist
-        - Evil laugh
-        - Henchmen
-    - name: Mini-Me
-      age: 28
-      secretIdentity: Verne Troyer
-      powers:
-        - Clone of Dr. Evil
-        - Miniaturization
-- squadName: The X-Men
-  homeTown: Westchester County
+  squadName: Dr Evil's Group
+  status: evil
+- active: true
   formed: 1963
-  status: good
+  homeTown: Westchester County
+  members:
+  - age: 65
+    name: Professor X
+    powers:
+    - Telepathy
+    - Genius-level intellect
+    secretIdentity: Charles Xavier
+  - age: 200
+    name: Wolverine
+    powers:
+    - Regenerative healing factor
+    - Adamantium skeleton
+    - Retractable claws
+    secretIdentity: Logan
+  - age: 35
+    name: Storm
+    powers:
+    - Atmokinesis
+    - Flight
+    - Elemental control
+    secretIdentity: Ororo Munroe
+  - age: 35
+    name: Cyclops
+    powers:
+    - Optic blasts
+    - Energy absorption
+    - Expert tactician
+    secretIdentity: Scott Summers
+  - age: 35
+    name: Jean Grey
+    powers:
+    - Telekinesis
+    - Telepathy
+    - Phoenix Force
+    secretIdentity: Jean Grey
   secretBase: Xavier's School for Gifted Youngsters
-  active: true
-  members:
-    - name: Professor X
-      age: 65
-      secretIdentity: Charles Xavier
-      powers:
-        - Telepathy
-        - Genius-level intellect
-    - name: Wolverine
-      age: 200
-      secretIdentity: Logan
-      powers:
-        - Regenerative healing factor
-        - Adamantium skeleton
-        - Retractable claws
-    - name: Storm
-      age: 35
-      secretIdentity: Ororo Munroe
-      powers:
-        - Atmokinesis
-        - Flight
-        - Elemental control
-    - name: Cyclops
-      age: 35
-      secretIdentity: Scott Summers
-      powers:
-        - Optic blasts
-        - Energy absorption
-        - Expert tactician
-    - name: Jean Grey
-      age: 35
-      secretIdentity: Jean Grey
-      powers:
-        - Telekinesis
-        - Telepathy
-        - Phoenix Force
-- squadName: The Incredibles
-  homeTown: Metroville
-  formed: 2004
+  squadName: The X-Men
   status: good
-  secretBase: Parr Residence
-  active: true
+- active: true
+  formed: 2004
+  homeTown: Metroville
   members:
-    - name: Mr. Incredible
-      age: 45
-      secretIdentity: Bob Parr
-      powers:
-        - Super strength
-        - Enhanced durability
-    - name: Elastigirl
-      age: 40
-      secretIdentity: Helen Parr
-      powers:
-        - Elasticity
-        - Shape manipulation
-    - name: Violet Parr
-      age: 17
-      secretIdentity: Violet Parr
-      powers:
-        - Invisibility
-        - Force field generation
-    - name: Dash Parr
-      age: 15
-      secretIdentity: Dash Parr
-      powers:
-        - Super speed
-    - name: Jack-Jack
-      age: 1
-      secretIdentity: Jack-Jack Parr
-      powers:
-        - 'Multiple powers (shapeshifting, laser vision, etc.)'
+  - age: 45
+    name: Mr. Incredible
+    powers:
+    - Super strength
+    - Enhanced durability
+    secretIdentity: Bob Parr
+  - age: 40
+    name: Elastigirl
+    powers:
+    - Elasticity
+    - Shape manipulation
+    secretIdentity: Helen Parr
+  - age: 17
+    name: Violet Parr
+    powers:
+    - Invisibility
+    - Force field generation
+    secretIdentity: Violet Parr
+  - age: 15
+    name: Dash Parr
+    powers:
+    - Super speed
+    secretIdentity: Dash Parr
+  - age: 1
+    name: Jack-Jack
+    powers:
+    - Multiple powers (shapeshifting, laser vision, etc.)
+    secretIdentity: Jack-Jack Parr
+  secretBase: Parr Residence
+  squadName: The Incredibles
+  status: good
