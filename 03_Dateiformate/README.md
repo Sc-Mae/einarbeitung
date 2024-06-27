@@ -17,12 +17,13 @@
 4. Unterstützt XML benutzerdefinierte Tags?
   - ja, man kann angepasste Tags, Datenstrukturen und Schemas erstellen
 5. Wann ist welcher Datentyp von Vorteil?
-  - 
+  - YAML wenn es um Konfigurationsdateien geht, XMML wenn es bei Dokumenten und Datenübertragung mit strengen 
+    strukturanforderungen und JSON bei Web APIs und schnelle Datenübertragung 
 6. Was ist eine XSD-Datei?
   - es ist ein Datentyp um 3D-Designs zu speichern und wurde von Autodesk, Inc. entwickelt 
 7. Was versteht man unter Validierung?
   - Die Bestätigung, dass ein Produkt oder eine Dienstleistung den Erwartungen entspricht  
 8. An was erinnert eine XML-Datei bzgl. ihres Aufbaus?
-  - 
+  - XML-Dokumente haben eine Baumstruktur
 9. Was bedeutet Parsen?
   - die Umwandlung von Daten in ein anderes Format 
