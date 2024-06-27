@@ -98,7 +98,7 @@ for squad_data in data:
         )
     squads.append(squad_int)
 
-x = int(input("zu welchem Team soll der neue Member hinzugefügt werden(0-10): "))
+x = int(input("zu welchem Team soll Ironman hinzugefügt werden(0-10): "))
 squads[x].add_member("Ironman", 41, "Tony Stark", ["Fighting", "Lasers"])
 
 squads[0].list_members_with_uuid()
