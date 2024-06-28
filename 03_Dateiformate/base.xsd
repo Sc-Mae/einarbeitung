@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="root">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="squadName" type="xs:string"/>
+                <xs:element name="homeTown" type="xs:string"/>
+                <xs:element name="formed" type="xs:integer"/>
+                <xs:element name="secretBase" type="xs:string"/>
+                <xs:element name="active" type="xs:boolean"/>
+                <xs:element name="members">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="member" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="name" type="xs:string"/>
+                                        <xs:element name="age" type="xs:integer"/>
+                                        <xs:element name="secretIdentity" type="xs:string"/>
+                                        <xs:element name="powers"> 
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="power" type="xs:string" maxOccurs="unbounded"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

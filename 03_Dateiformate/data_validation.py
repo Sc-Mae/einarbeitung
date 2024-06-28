@@ -39,7 +39,7 @@ tree.write("base.xml", xml_declaration=True, encoding="utf-8", method="xml")
 
 if validate(
     "/home/yw/einarbeitung/03_Dateiformate/base.xml",
-    "/home/yw/einarbeitung/03_Dateiformate/base1.xml",
+    "/home/yw/einarbeitung/03_Dateiformate/base.xsd",
 ):
     print("Valid")
 else:
