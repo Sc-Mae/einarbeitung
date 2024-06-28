@@ -34,3 +34,13 @@ for entry in data:
 
 tree = ET.ElementTree(root)
 tree.write("base.xml", xml_declaration=True, encoding="utf-8", method="xml")
+
+from validator import validate
+
+if validate(
+    "/home/yw/einarbeitung/03_Dateiformate/base.xml",
+    "/home/yw/einarbeitung/03_Dateiformate/base.xsd",
+):
+    print("Valid")
+else:
+    print("Not valid")
