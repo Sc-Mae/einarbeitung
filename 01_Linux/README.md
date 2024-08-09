@@ -40,6 +40,7 @@ f) Docker-compose
 - Was ist vim?
 
 ### Linux-Befehle
+Was bewirken folgende Befehle:
 - `history`
 - `chmod`
 - `chown`
