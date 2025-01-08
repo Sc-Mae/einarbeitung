@@ -110,7 +110,7 @@ f) Docker-compose
     -   mit "#" z.B #hier wird erklärt wie man Kommentare in Bash schreibt.
 
 - Was ist vim?
-    -   Vim ist ein Texteditor, der oft von Programmierern verwendet wird, da er eine Vielzahl von Funktionen wie Syntaxhervorhebung, Autovervollständigung und eine effiziente     Navigation bietet. Er basiert auf dem alten Vi-Editor. Vim hat drei Hauptmodi:
+    -   Vim ist ein Texteditor, der oft von Programmierern verwendet wird, da er eine Vielzahl von Funktionen wie Syntaxhervorhebung, Autovervollständigung (muss seperat konfiguriert werden) und eine effiziente Navigation bietet. Er basiert auf dem alten Vi-Editor. Vim hat drei Hauptmodi:
 
         Normalmodus: Zum Navigieren und Bearbeiten von Text.
         Einfügemodus: Zum Tippen von Text.
@@ -122,7 +122,7 @@ Was bewirken folgende Befehle:
 -   chmod:                      Ändert die Berechtigungen von Dateien oder Verzeichnissen.
 -   chown:                      Ändert den Besitzer und/oder die Gruppe einer Datei oder eines Verzeichnisses.
 -   mv test.txt abc:            Verschiebt oder benennt die Datei test.txt in abc um.
--   ll | grep test:             Listet Dateien auf und filtert nach dem Wort "test".
+-   ll | grep test:             Es zeigt eine ausführliche Liste der Dateien und Verzeichnisse im aktuellen Verzeichnis an, einschließlich Berechtigungen, Eigentümer,              Größe                             Änderungszeit und filtert nach dem Wort "test".
 -   find . -name cisco:         Sucht nach Dateien mit dem Namen "cisco" im aktuellen Verzeichnis und Unterverzeichnissen.
 -   find / -name cisco:         Sucht nach Dateien mit dem Namen "cisco" im gesamten Dateisystem.
 -   tar -xvf archive.tar.gz:    Entpackt das Archiv archive.tar.gz.
