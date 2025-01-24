@@ -1,0 +1,256 @@
+[
+    {
+      "SquadName": "Super hero squad",
+      "HomeTown": "Metro City",
+      "formed": 2016,
+      "position": "good",
+      "SecretBase": "Super tower",
+      "active": true,
+      "members": 
+      [
+        {
+          "name": "Molecule Man",
+          "age": 29,
+          "SecretIdentity": "Dan Jukes",
+          "power": [
+            "Radiation resistance",
+            "Turning tiny",
+            "Radiation blast"
+          ]
+        },
+        {
+          "name": "Madame Uppercut",
+          "age": 39,
+          "SecretIdentity": "Jane Wilson",
+          "power": [
+            "Million tonne punch",
+            "Damage resistance",
+            "Superhuman reflexes"
+          ]
+        },
+        {
+          "name": "Eternal Flame",
+          "age": 1000000,
+          "SecretIdentity": "Unknown",
+          "power": [
+            "Immortality",
+            "Heat Immunity",
+            "Inferno",
+            "Teleportation",
+            "Interdimensional travel"
+          ]
+        }
+      ]
+    },
+    {
+      "SquadName": "Avengers",
+      "HomeTown": "New York",
+      "formed": 2012,
+      "position": "good",
+      "SecretBase": "Stark Tower",
+      "active": true,
+      "members": 
+      [
+        {
+          "name": "Iron Man",
+          "age": 42,
+          "SecretIdentity": "Tony Stark",
+          "power": [
+            "Genius-level intellect",
+            "Powered armor suit",
+            "Flight",
+            "Energy repulsors"
+          ]
+        },
+        {
+          "name": "Captain America",
+          "age": 33,
+          "SecretIdentity": "Steve Rogers",
+          "power": [
+            "Superhuman strength",
+            "Enhanced agility",
+            "Expert martial artist",
+            "Vibranium shield"
+          ]
+        },
+        {
+          "name": "Thor",
+          "age": 1500,
+          "SecretIdentity": "Thor Odinson",
+          "power": [
+            "Asgardian physiology",
+            "Superhuman strength",
+            "Control over lightning",
+            "Mjolnir (enchanted hammer)"
+          ]
+        }
+      ]
+    },
+    {
+      "SquadName": "X-Force",
+      "HomeTown": "New York",
+      "formed": 2020,
+      "SecretBase": "X-Mansion",
+      "active": true,
+      "position": "neutral",
+      "members": [
+        {
+          "name": "Deadpool",
+          "age": 42,
+          "SecretIdentity": "Wade Wilson",
+          "power": [
+            "Regenerative healing factor",
+            "Expert marksman",
+            "Master martial artist",
+            "Fourth wall awareness"
+          ]
+        },
+        {
+          "name": "Domino",
+          "age": 32,
+          "SecretIdentity": "Neena Thurman",
+          "power": [
+            "Luck manipulation",
+            "Expert marksmanship",
+            "Skilled hand-to-hand combatant"
+          ]
+        }
+      ]
+    },
+    {
+      "SquadName": "Guardians of the Galaxy",
+      "HomeTown": "Xandar",
+      "formed": 2014,
+      "SecretBase": "Knowhere",
+      "active": true,
+      "position": "good",
+      "members": [
+        {
+          "name": "Star-Lord",
+          "age": 40,
+          "SecretIdentity": "Peter Quill",
+          "power": [
+            "Strategic leadership",
+            "Expert pilot",
+            "Skilled hand-to-hand combatant",
+            "Element Gun"
+          ]
+        },
+        {
+          "name": "Gamora",
+          "age": 35,
+          "SecretIdentity": "Gamora",
+          "power": [
+            "Enhanced strength",
+            "Master assassin",
+            "Expert martial artist",
+            "Skilled swordswoman"
+          ]
+        }
+      ]
+    },
+    {
+      "SquadName": "Fantastic Four",
+      "HomeTown": "New York",
+      "formed": 1961,
+      "position": "good",
+      "SecretBase": "Baxter Building",
+      "active": true,
+      "members": [
+        {
+          "name": "Mr. Fantastic",
+          "age": 45,
+          "SecretIdentity": "Reed Richards",
+          "power": [
+            "Elasticity",
+            "Superhuman intellect"
+          ]
+        },
+        {
+          "name": "Invisible Woman",
+          "age": 38,
+          "SecretIdentity": "Sue Storm",
+          "power": [
+            "Invisibility",
+            "Force field generation"
+          ]
+        },
+        {
+          "name": "Human Torch",
+          "age": 30,
+          "SecretIdentity": "Johnny Storm",
+          "power": [
+            "Pyrokinesis",
+            "Flight"
+          ]
+        },
+        {
+          "name": "The Thing",
+          "age": 40,
+          "SecretIdentity": "Ben Grimm",
+          "power": [
+            "Superhuman strength",
+            "Durable rock-like skin"
+          ]
+        }
+      ]
+    },
+    {
+      "SquadName": "Teen Titans",
+      "HomeTown": "Jump City",
+      "formed": 1980,
+      "position": "good",
+      "SecretBase": "Titans Tower",
+      "active": true,
+      "members": [
+        {
+          "name": "Robin",
+          "age": 20,
+          "SecretIdentity": "Dick Grayson",
+          "power": [
+            "Master acrobat",
+            "Strategic mind"
+          ]
+        },
+        {
+          "name": "Starfire",
+          "age": 22,
+          "SecretIdentity": "Koriand'r",
+          "power": [
+            "Flight",
+            "Energy projection",
+            "Superhuman strength"
+          ]
+        },
+        {
+          "name": "Cyborg",
+          "age": 25,
+          "SecretIdentity": "Victor Stone",
+          "power": [
+            "Cybernetic enhancements",
+            "Super strength",
+            "Technopathy"
+          ]
+        },
+        {
+          "name": "Beast Boy",
+          "age": 18,
+          "SecretIdentity": "Garfield Logan",
+          "power": [
+            "Shapeshifting",
+            "Animal mimicry"
+          ]
+        },
+        {
+          "name": "Raven",
+          "age": 21,
+          "SecretIdentity": "Raven",
+          "power": [
+            "Telekinesis",
+            "Teleportation",
+            "Astral projection"
+          ]
+        }
+      ]
+    }
+  ]
