@@ -15,6 +15,8 @@ Folge der Anleitung in der KnowledgeBase, um eine VM einzurichten. Stelle sicher
 ### Installierte Programme
 a) nvim  
 b) Git  
+c) check-mk 
+b) Erstelle ein Basis Monitoring für ein Server, Switches, Firewall 
 
 ## Fragen und Antworten
 - Was ist Linux und wie unterscheidet es sich von anderen Betriebssystemen wie Windows oder macOS?
