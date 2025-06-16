@@ -9,20 +9,12 @@ Folge der Anleitung in der KnowledgeBase, um eine VM einzurichten. Stelle sicher
 ### Benutzer anlegen
 - `root`: Der Hauptbenutzer mit vollständigen administrativen Rechten.
 - `admin`: Ein Benutzer mit sudo-Berechtigungen.
-- `entwickler`: Ein Benutzer ohne sudo-Berechtigungen.
+- `entwickler`: Ein Benutzer für das tägliche arbeiten. Du kannst ihn benennen wie du möchtest 
 
-### Partitionierung
-- `/`: Das Stammverzeichnis.
-- `/var/`: Das Verzeichnis für variable Daten.
-- `/home/`: Das Verzeichnis für Benutzerdaten.
 
 ### Installierte Programme
-a) GUI  
-b) IDE  
-c) Git  
-d) Docker  
-e) Python  
-f) Docker-compose  
+a) nvim  
+b) Git  
 
 ## Fragen und Antworten
 - Was ist Linux und wie unterscheidet es sich von anderen Betriebssystemen wie Windows oder macOS?
