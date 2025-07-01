@@ -3,8 +3,6 @@
 ## Beschreibung
 In diesem Projekt wird eine Virtual Machine (VM) unter Rocky Linux eingerichtet. Es werden verschiedene Benutzer angelegt, die Partitionierung vorgenommen und verschiedene Programme installiert.
 
-## Anleitung
-Folge der Anleitung in der KnowledgeBase, um eine VM einzurichten. Stelle sicher, dass du die Scaltel Repos für den Packetmanager hinterlegst.
 
 ### Benutzer anlegen
 - `root`: Der Hauptbenutzer mit vollständigen administrativen Rechten.
