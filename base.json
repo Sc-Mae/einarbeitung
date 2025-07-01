@@ -1,4 +1,5 @@
 {
+{
 	"squadName": "Super hero squad",
 	"homeTown": "Metro City",
 	"formed": 2016,
@@ -39,7 +40,7 @@
 			]
 		}
 	]
-}
+},
 {
 	"squadName": "Avengers",
 	"homeTown": "New York",
@@ -82,7 +83,7 @@
 			]
 		}
 	]
-}
+},
 {
 	"squadName": "X-Force",
 	"homeTown": "New York",
@@ -113,7 +114,7 @@
 			]
 		}
 	]
-}
+},
 {
 	"squadName": "Guardians of the Galaxy",
 	"homeTown": "Xandar",
@@ -145,7 +146,7 @@
 			]
 		}
 	]
-}
+},
 {
 	"squadName": "Fantastic Four",
 	"homeTown": "New York",
@@ -191,7 +192,7 @@
 			]
 		}
 	]
-}
+},
 {
 	"squadName": "Teen Titans",
 	"homeTown": "Jump City",
@@ -249,7 +250,7 @@
 			]
 		}
 	]
-}
+},
 {
 	"squadName": "Sinister Six",
 	"homeTown": "New York",
@@ -289,7 +290,7 @@
 			]
 		}
 	]
-}
+},
 {
 	"squadName": "Justice League",
 	"homeTown": "Metropolis",
@@ -335,7 +336,7 @@
 			]
 		}
 	]
-}
+},
 {
 	"squadName": "Dr Evil's Group",
 	"homeTown": "Las Vegas",
@@ -365,7 +366,7 @@
 			]
 		}
 	]
-}
+},
 {
 	"squadName": "The X-Men",
 	"homeTown": "Westchester County",
@@ -424,7 +425,7 @@
 			]
 		}
 	]
-}
+},
 {
 	"squadName": "The Incredibles",
 	"homeTown": "Metroville",
@@ -477,4 +478,5 @@
 			]
 		}
 	]
+}
 }
