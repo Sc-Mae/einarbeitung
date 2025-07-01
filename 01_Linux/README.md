@@ -21,6 +21,7 @@ b) Erstelle ein Basis Monitoring für ein Server, Switches, Firewall
 ## Fragen und Antworten
 - Was ist Linux und wie unterscheidet es sich von anderen Betriebssystemen wie Windows oder macOS?
 - Was sind die Vorteile der Verwendung von Linux im Vergleich zu anderen Betriebssystemen?
+- Warum sollt man nicht dauerhaft mit dem root User arbeiten?
 - Was ist Virtualisierung und welche Vorteile bieten VMs?
 - Was sind yum und dnf?
 - Was ist eine IDE und wie unterscheidet sie sich von einem Texteditor?
