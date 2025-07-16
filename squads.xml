@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<all>
+	<item type="dict">
+		<squadName type="str">Super hero squad</squadName>
+		<homeTown type="str">Metro City</homeTown>
+		<formed type="int">2016</formed>
+		<status type="str">good</status>
+		<secretBase type="str">Super tower</secretBase>
+		<active type="bool">true</active>
+		<members type="list">
+			<item type="dict">
+				<name type="str">Molecule Man</name>
+				<age type="int">29</age>
+				<secretIdentity type="str">Dan Jukes</secretIdentity>
+				<powers type="list">
+					<item type="str">Radiation resistance</item>
+					<item type="str">Turning tiny</item>
+					<item type="str">Radiation blast</item>
+				</powers>
+			</item>
+			<item type="dict">
+				<name type="str">Madame Uppercut</name>
+				<age type="int">39</age>
+				<secretIdentity type="str">Jane Wilson</secretIdentity>
+				<powers type="list">
+					<item type="str">Million tonne punch</item>
+					<item type="str">Damage resistance</item>
+					<item type="str">Superhuman reflexes</item>
+				</powers>
+			</item>
+			<item type="dict">
+				<name type="str">Eternal Flame</name>
+				<age type="int">1000000</age>
+				<secretIdentity type="str">Unknown</secretIdentity>
+				<powers type="list">
+					<item type="str">Immortality</item>
+					<item type="str">Heat Immunity</item>
+					<item type="str">Inferno</item>
+					<item type="str">Teleportation</item>
+					<item type="str">Interdimensional travel</item>
+				</powers>
+			</item>
+		</members>
+	</item>
+	<item type="dict">
+		<squadName type="str">Avengers</squadName>
+		<homeTown type="str">New York</homeTown>
+		<formed type="int">2012</formed>
+		<status type="str">good</status>
+		<secretBase type="str">Stark Tower</secretBase>
+		<active type="bool">true</active>
+		<members type="list">
+			<item type="dict">
+				<name type="str">Iron Man</name>
+				<age type="int">42</age>
+				<secretIdentity type="str">Tony Stark</secretIdentity>
+				<powers type="list">
+					<item type="str">Genius-level intellect</item>
+					<item type="str">Powered armor suit</item>
+					<item type="str">Flight</item>
+					<item type="str">Energy repulsors</item>
+				</powers>
+			</item>
+			<item type="dict">
+				<name type="str">Captain America</name>
+				<age type="int">33</age>
+				<secretIdentity type="str">Steve Rogers</secretIdentity>
+				<powers type="list">
+					<item type="str">Superhuman strength</item>
+					<item type="str">Enhanced agility</item>
+					<item type="str">Expert martial artist</item>
+					<item type="str">Vibranium shield</item>
+				</powers>
+			</item>
+			<item type="dict">
+				<name type="str">Thor</name>
+				<age type="int">1500</age>
+				<secretIdentity type="str">Thor Odinson</secretIdentity>
+				<powers type="list">
+					<item type="str">Asgardian physiology</item>
+					<item type="str">Superhuman strength</item>
+					<item type="str">Control over lightning</item>
+					<item type="str">Mjolnir (enchanted hammer)</item>
+				</powers>
+			</item>
+		</members>
+	</item>
+	<item type="dict">
+		<squadName type="str">X-Force</squadName>
+		<homeTown type="str">New York</homeTown>
+		<formed type="int">2020</formed>
+		<secretBase type="str">X-Mansion</secretBase>
+		<active type="bool">true</active>
+		<status type="str">neutral</status>
+		<members type="list">
+			<item type="dict">
+				<name type="str">Deadpool</name>
+				<age type="int">42</age>
+				<secretIdentity type="str">Wade Wilson</secretIdentity>
+				<powers type="list">
+					<item type="str">Regenerative healing factor</item>
+					<item type="str">Expert marksman</item>
+					<item type="str">Master martial artist</item>
+					<item type="str">Fourth wall awareness</item>
+				</powers>
+			</item>
+			<item type="dict">
+				<name type="str">Domino</name>
+				<age type="int">32</age>
+				<secretIdentity type="str">Neena Thurman</secretIdentity>
+				<powers type="list">
+					<item type="str">Luck manipulation</item>
+					<item type="str">Expert marksmanship</item>
+					<item type="str">Skilled hand-to-hand combatant</item>
+				</powers>
+			</item>
+		</members>
+	</item>
+	<item type="dict">
+		<squadName type="str">Guardians of the Galaxy</squadName>
+		<homeTown type="str">Xandar</homeTown>
+		<formed type="int">2014</formed>
+		<secretBase type="str">Knowhere</secretBase>
+		<active type="bool">true</active>
+		<status type="str">good</status>
+		<members type="list">
+			<item type="dict">
+				<name type="str">Star-Lord</name>
+				<age type="int">40</age>
+				<secretIdentity type="str">Peter Quill</secretIdentity>
+				<powers type="list">
+					<item type="str">Strategic leadership</item>
+					<item type="str">Expert pilot</item>
+					<item type="str">Skilled hand-to-hand combatant</item>
+					<item type="str">Element Gun</item>
+				</powers>
+			</item>
+			<item type="dict">
+				<name type="str">Gamora</name>
+				<age type="int">35</age>
+				<secretIdentity type="str">Gamora</secretIdentity>
+				<powers type="list">
+					<item type="str">Enhanced strength</item>
+					<item type="str">Master assassin</item>
+					<item type="str">Expert martial artist</item>
+					<item type="str">Skilled swordswoman</item>
+				</powers>
+			</item>
+		</members>
+	</item>
+	<item type="dict">
+		<squadName type="str">Fantastic Four</squadName>
+		<homeTown type="str">New York</homeTown>
+		<formed type="int">1961</formed>
+		<status type="str">good</status>
+		<secretBase type="str">Baxter Building</secretBase>
+		<active type="bool">true</active>
+		<members type="list">
+			<item type="dict">
+				<name type="str">Mr. Fantastic</name>
+				<age type="int">45</age>
+				<secretIdentity type="str">Reed Richards</secretIdentity>
+				<powers type="list">
+					<item type="str">Elasticity</item>
+					<item type="str">Superhuman intellect</item>
+				</powers>
+			</item>
+			<item type="dict">
+				<name type="str">Invisible Woman</name>
+				<age type="int">38</age>
+				<secretIdentity type="str">Sue Storm</secretIdentity>
+				<powers type="list">
+					<item type="str">Invisibility</item>
+					<item type="str">Force field generation</item>
+				</powers>
+			</item>
+			<item type="dict">
+				<name type="str">Human Torch</name>
+				<age type="int">30</age>
+				<secretIdentity type="str">Johnny Storm</secretIdentity>
+				<powers type="list">
+					<item type="str">Pyrokinesis</item>
+					<item type="str">Flight</item>
+				</powers>
+			</item>
+			<item type="dict">
+				<name type="str">The Thing</name>
+				<age type="int">40</age>
+				<secretIdentity type="str">Ben Grimm</secretIdentity>
+				<powers type="list">
+					<item type="str">Superhuman strength</item>
+					<item type="str">Durable rock-like skin</item>
+				</powers>
+			</item>
+		</members>
+	</item>
+	<item type="dict">
+		<squadName type="str">Teen Titans</squadName>
+		<homeTown type="str">Jump City</homeTown>
+		<formed type="int">1980</formed>
+		<status type="str">good</status>
+		<secretBase type="str">Titans Tower</secretBase>
+		<active type="bool">true</active>
+		<members type="list">
+			<item type="dict">
+				<name type="str">Robin</name>
+				<age type="int">20</age>
+				<secretIdentity type="str">Dick Grayson</secretIdentity>
+				<powers type="list">
+					<item type="str">Master acrobat</item>
+					<item type="str">Strategic mind</item>
+				</powers>
+			</item>
+			<item type="dict">
+				<name type="str">Starfire</name>
+				<age type="int">22</age>
+				<secretIdentity type="str">Koriand'r</secretIdentity>
+				<powers type="list">
+					<item type="str">Flight</item>
+					<item type="str">Energy projection</item>
+					<item type="str">Superhuman strength</item>
+				</powers>
+			</item>
+			<item type="dict">
+				<name type="str">Cyborg</name>
+				<age type="int">25</age>
+				<secretIdentity type="str">Victor Stone</secretIdentity>
+				<powers type="list">
+					<item type="str">Cybernetic enhancements</item>
+					<item type="str">Super strength</item>
+					<item type="str">Technopathy</item>
+				</powers>
+			</item>
+			<item type="dict">
+				<name type="str">Beast Boy</name>
+				<age type="int">18</age>
+				<secretIdentity type="str">Garfield Logan</secretIdentity>
+				<powers type="list">
+					<item type="str">Shapeshifting</item>
+					<item type="str">Animal mimicry</item>
+				</powers>
+			</item>
+			<item type="dict">
+				<name type="str">Raven</name>
+				<age type="int">21</age>
+				<secretIdentity type="str">Raven</secretIdentity>
+				<powers type="list">
+					<item type="str">Telekinesis</item>
+					<item type="str">Teleportation</item>
+					<item type="str">Astral projection</item>
+				</powers>
+			</item>
+		</members>
+	</item>
+	<item type="dict">
+		<squadName type="str">Sinister Six</squadName>
+		<homeTown type="str">New York</homeTown>
+		<formed type="int">1984</formed>
+		<status type="str">evil</status>
+		<secretBase type="str">Abandoned warehouse</secretBase>
+		<active type="bool">true</active>
+		<members type="list">
+			<item type="dict">
+				<name type="str">Doctor Octopus</name>
+				<age type="int">58</age>
+				<secretIdentity type="str">Otto Octavius</secretIdentity>
+				<powers type="list">
+					<item type="str">Mechanical tentacles</item>
+					<item type="str">Genius-level intellect</item>
+					<item type="str">Expert engineer</item>
+				</powers>
+			</item>
+			<item type="dict">
+				<name type="str">Green Goblin</name>
+				<age type="int">45</age>
+				<secretIdentity type="str">Norman Osborn</secretIdentity>
+				<powers type="list">
+					<item type="str">Enhanced strength</item>
+					<item type="str">Flight</item>
+					<item type="str">Goblin-themed weaponry</item>
+				</powers>
+			</item>
+			<item type="dict">
+				<name type="str">Electro</name>
+				<age type="int">35</age>
+				<secretIdentity type="str">Max Dillon</secretIdentity>
+				<powers type="list">
+					<item type="str">Electrokinesis</item>
+					<item type="str">Electricity manipulation</item>
+					<item type="str">Superhuman agility</item>
+				</powers>
+			</item>
+		</members>
+	</item>
+	<item type="dict">
+		<squadName type="str">Justice League</squadName>
+		<homeTown type="str">Metropolis</homeTown>
+		<formed type="int">1960</formed>
+		<status type="str">good</status>
+		<secretBase type="str">Hall of Justice</secretBase>
+		<active type="bool">true</active>
+		<members type="list">
+			<item type="dict">
+				<name type="str">Superman</name>
+				<age type="int">35</age>
+				<secretIdentity type="str">Clark Kent</secretIdentity>
+				<powers type="list">
+					<item type="str">Flight</item>
+					<item type="str">Super strength</item>
+					<item type="str">Heat vision</item>
+					<item type="str">Freeze breath</item>
+					<item type="str">Invulnerability</item>
+				</powers>
+			</item>
+			<item type="dict">
+				<name type="str">Batman</name>
+				<age type="int">42</age>
+				<secretIdentity type="str">Bruce Wayne</secretIdentity>
+				<powers type="list">
+					<item type="str">Genius-level intellect</item>
+					<item type="str">Wealth</item>
+					<item type="str">Expert detective</item>
+					<item type="str">Master martial artist</item>
+					<item type="str">Advanced technology</item>
+				</powers>
+			</item>
+			<item type="dict">
+				<name type="str">Wonder Woman</name>
+				<age type="int">3000</age>
+				<secretIdentity type="str">Diana Prince</secretIdentity>
+				<powers type="list">
+					<item type="str">Super strength</item>
+					<item type="str">Flight</item>
+					<item type="str">Combat skills</item>
+					<item type="str">Lasso of Truth</item>
+					<item type="str">Divine wisdom</item>
+				</powers>
+			</item>
+		</members>
+	</item>
+	<item type="dict">
+		<squadName type="str">Dr Evil's Group</squadName>
+		<homeTown type="str">Las Vegas</homeTown>
+		<formed type="int">1997</formed>
+		<status type="str">evil</status>
+		<secretBase type="str">Underground lair</secretBase>
+		<active type="bool">true</active>
+		<members type="list">
+			<item type="dict">
+				<name type="str">Dr. Evil</name>
+				<age type="int">58</age>
+				<secretIdentity type="str">Douglas Powers</secretIdentity>
+				<powers type="list">
+					<item type="str">Genius-level intellect</item>
+					<item type="str">Master strategist</item>
+					<item type="str">Evil laugh</item>
+					<item type="str">Henchmen</item>
+				</powers>
+			</item>
+			<item type="dict">
+				<name type="str">Mini-Me</name>
+				<age type="int">28</age>
+				<secretIdentity type="str">Verne Troyer</secretIdentity>
+				<powers type="list">
+					<item type="str">Clone of Dr. Evil</item>
+					<item type="str">Miniaturization</item>
+				</powers>
+			</item>
+		</members>
+	</item>
+	<item type="dict">
+		<squadName type="str">The X-Men</squadName>
+		<homeTown type="str">Westchester County</homeTown>
+		<formed type="int">1963</formed>
+		<status type="str">good</status>
+		<secretBase type="str">Xavier's School for Gifted Youngsters</secretBase>
+		<active type="bool">true</active>
+		<members type="list">
+			<item type="dict">
+				<name type="str">Professor X</name>
+				<age type="int">65</age>
+				<secretIdentity type="str">Charles Xavier</secretIdentity>
+				<powers type="list">
+					<item type="str">Telepathy</item>
+					<item type="str">Genius-level intellect</item>
+				</powers>
+			</item>
+			<item type="dict">
+				<name type="str">Wolverine</name>
+				<age type="int">200</age>
+				<secretIdentity type="str">Logan</secretIdentity>
+				<powers type="list">
+					<item type="str">Regenerative healing factor</item>
+					<item type="str">Adamantium skeleton</item>
+					<item type="str">Retractable claws</item>
+				</powers>
+			</item>
+			<item type="dict">
+				<name type="str">Storm</name>
+				<age type="int">35</age>
+				<secretIdentity type="str">Ororo Munroe</secretIdentity>
+				<powers type="list">
+					<item type="str">Atmokinesis</item>
+					<item type="str">Flight</item>
+					<item type="str">Elemental control</item>
+				</powers>
+			</item>
+			<item type="dict">
+				<name type="str">Cyclops</name>
+				<age type="int">35</age>
+				<secretIdentity type="str">Scott Summers</secretIdentity>
+				<powers type="list">
+					<item type="str">Optic blasts</item>
+					<item type="str">Energy absorption</item>
+					<item type="str">Expert tactician</item>
+				</powers>
+			</item>
+			<item type="dict">
+				<name type="str">Jean Grey</name>
+				<age type="int">35</age>
+				<secretIdentity type="str">Jean Grey</secretIdentity>
+				<powers type="list">
+					<item type="str">Telekinesis</item>
+					<item type="str">Telepathy</item>
+					<item type="str">Phoenix Force</item>
+				</powers>
+			</item>
+		</members>
+	</item>
+	<item type="dict">
+		<squadName type="str">The Incredibles</squadName>
+		<homeTown type="str">Metroville</homeTown>
+		<formed type="int">2004</formed>
+		<status type="str">good</status>
+		<secretBase type="str">Parr Residence</secretBase>
+		<active type="bool">true</active>
+		<members type="list">
+			<item type="dict">
+				<name type="str">Mr. Incredible</name>
+				<age type="int">45</age>
+				<secretIdentity type="str">Bob Parr</secretIdentity>
+				<powers type="list">
+					<item type="str">Super strength</item>
+					<item type="str">Enhanced durability</item>
+				</powers>
+			</item>
+			<item type="dict">
+				<name type="str">Elastigirl</name>
+				<age type="int">40</age>
+				<secretIdentity type="str">Helen Parr</secretIdentity>
+				<powers type="list">
+					<item type="str">Elasticity</item>
+					<item type="str">Shape manipulation</item>
+				</powers>
+			</item>
+			<item type="dict">
+				<name type="str">Violet Parr</name>
+				<age type="int">17</age>
+				<secretIdentity type="str">Violet Parr</secretIdentity>
+				<powers type="list">
+					<item type="str">Invisibility</item>
+					<item type="str">Force field generation</item>
+				</powers>
+			</item>
+			<item type="dict">
+				<name type="str">Dash Parr</name>
+				<age type="int">15</age>
+				<secretIdentity type="str">Dash Parr</secretIdentity>
+				<powers type="list">
+					<item type="str">Super speed</item>
+				</powers>
+			</item>
+			<item type="dict">
+				<name type="str">Jack-Jack</name>
+				<age type="int">1</age>
+				<secretIdentity type="str">Jack-Jack Parr</secretIdentity>
+				<powers type="list">
+					<item type="str">Multiple powers (shapeshifting, laser vision, etc.)</item>
+				</powers>
+			</item>
+		</members>
+	</item>
+</all>

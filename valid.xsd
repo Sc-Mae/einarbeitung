@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+
+  <xs:element name="all">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="item" type="SquadType" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+
+  <xs:complexType name="SquadType">
+    <xs:all>
+      <xs:element name="squadName" type="xs:string"/>
+      <xs:element name="homeTown" type="xs:string"/>
+      <xs:element name="formed" type="xs:integer"/>
+      <xs:element name="status" type="xs:string"/>
+      <xs:element name="secretBase" type="xs:string"/>
+      <xs:element name="active" type="xs:boolean"/>
+      <xs:element name="members" type="MembersList"/>
+    </xs:all>
+  </xs:complexType>
+
+
+  <xs:complexType name="MembersList">
+    <xs:sequence>
+      <xs:element name="item" type="MemberType" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+
+  <xs:complexType name="MemberType">
+    <xs:all>
+      <xs:element name="name" type="xs:string"/>
+      <xs:element name="age" type="xs:integer"/>
+      <xs:element name="secretIdentity" type="xs:string"/>
+      <xs:element name="powers" type="PowersList"/>
+    </xs:all>
+  </xs:complexType>
+
+
+  <xs:complexType name="PowersList">
+    <xs:sequence>
+      <xs:element name="item" type="xs:string" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+
+</xs:schema>

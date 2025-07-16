@@ -1,0 +1,9 @@
+"## Aufgabenbeschreibung\n\n1. Erstelle aus den Daten eine YAML-Datei.\n```python\n\
+  import yaml\n\nwith open(\"03_Dateiformate/README.md\", \"r\") as f:\n    inhalt\
+  \ = f.read()\n\n\nwith open('Dateiformate.yaml', 'w') as file:\n    yaml.dump(inhalt,\
+  \ file)\n\n```\n2. Erstelle ein XML-File aus der JSON.\n3. Validiere das XML-File\
+  \ mittels XSD.\n\n### Fragen:\n\n1. Was sind die Unterschiede der Datentypen?\n\
+  2. Was sind Vor- und Nachteile der jeweiligen Dateiformate?\n3. Wof\xFCr wird XML\
+  \ verwendet?\n4. Unterst\xFCtzt XML benutzerdefinierte Tags?\n5. Wann ist welcher\
+  \ Datentyp von Vorteil?\n6. Was ist eine XSD-Datei?\n7. Was versteht man unter Validierung?\n\
+  8. An was erinnert eine XML-Datei bzgl. ihres Aufbaus?\n9. Was bedeutet Parsen?\n"
